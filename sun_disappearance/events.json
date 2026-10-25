@@ -1,0 +1,854 @@
+{
+ "names": [
+  "Merkuriy",
+  "Venera",
+  "Yer",
+  "Mars",
+  "Yupiter",
+  "Saturn",
+  "Uran",
+  "Neptun",
+  "Pluton",
+  "Serera",
+  "Vesta",
+  "Galley kometasi"
+ ],
+ "colors": [
+  [
+   175,
+   170,
+   165
+  ],
+  [
+   235,
+   205,
+   140
+  ],
+  [
+   70,
+   145,
+   255
+  ],
+  [
+   225,
+   105,
+   65
+  ],
+  [
+   225,
+   185,
+   135
+  ],
+  [
+   235,
+   215,
+   160
+  ],
+  [
+   150,
+   225,
+   235
+  ],
+  [
+   85,
+   125,
+   245
+  ],
+  [
+   205,
+   185,
+   165
+  ],
+  [
+   165,
+   165,
+   155
+  ],
+  [
+   190,
+   175,
+   150
+  ],
+  [
+   200,
+   235,
+   255
+  ]
+ ],
+ "radius_km": [
+  2440,
+  6052,
+  6371,
+  3390,
+  69911,
+  58232,
+  25362,
+  24622,
+  1188,
+  470,
+  263,
+  5.5
+ ],
+ "fps": 30,
+ "t_final_days": 3652500.0,
+ "steps": 76084,
+ "collisions": [],
+ "crossings": [
+  {
+   "t": 53.97092445957834,
+   "body": "Merkuriy",
+   "what": "Mars orbitasi",
+   "r": 1.524
+  },
+  {
+   "t": 66.61168137236713,
+   "body": "Venera",
+   "what": "Mars orbitasi",
+   "r": 1.524
+  },
+  {
+   "t": 67.6766390933709,
+   "body": "Yer",
+   "what": "Mars orbitasi",
+   "r": 1.524
+  },
+  {
+   "t": 182.76009014852653,
+   "body": "Merkuriy",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 255.25251975699118,
+   "body": "Venera",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 296.15328973413915,
+   "body": "Yer",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 333.4025495395016,
+   "body": "Merkuriy",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 360.5569864037296,
+   "body": "Mars",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 412.7268498878938,
+   "body": "Vesta",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 455.28696866645294,
+   "body": "Serera",
+   "what": "Yupiter orbitasi",
+   "r": 5.203
+  },
+  {
+   "t": 470.9064076657174,
+   "body": "Venera",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 549.2345913064585,
+   "body": "Yer",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 693.4689932328547,
+   "body": "Mars",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 847.7375688357643,
+   "body": "Vesta",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 947.3785596930014,
+   "body": "Serera",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 1041.7642290942474,
+   "body": "Yupiter",
+   "what": "Saturn orbitasi",
+   "r": 9.537
+  },
+  {
+   "t": 1046.3263575904828,
+   "body": "Merkuriy",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 1488.1862610801368,
+   "body": "Venera",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 1738.3415376818155,
+   "body": "Yer",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 2245.914406972171,
+   "body": "Mars",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 2796.9321359870064,
+   "body": "Vesta",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 3094.7871981097455,
+   "body": "Serera",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 3977.1144719025524,
+   "body": "Yupiter",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 4168.172118251112,
+   "body": "Merkuriy",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 5156.8517003731085,
+   "body": "Saturn",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 5940.066444973509,
+   "body": "Venera",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 6156.336685225112,
+   "body": "Uran",
+   "what": "Neptun orbitasi",
+   "r": 30.07
+  },
+  {
+   "t": 6938.292901326382,
+   "body": "Yer",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 9021.776514840916,
+   "body": "Mars",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 11250.060136773429,
+   "body": "Vesta",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 12369.378379321897,
+   "body": "Serera",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 16204.797135129464,
+   "body": "Yupiter",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 21321.458824279154,
+   "body": "Saturn",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 30801.440220272227,
+   "body": "Uran",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 35346.90687446506,
+   "body": "Pluton",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 36867.932377720565,
+   "body": "Neptun",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 69430.061239756,
+   "body": "Merkuriy",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 99001.98539654759,
+   "body": "Venera",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 115631.21720220354,
+   "body": "Yer",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 150635.25520166665,
+   "body": "Mars",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 187827.42738529958,
+   "body": "Vesta",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 206045.8518641188,
+   "body": "Serera",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 222506.8694579695,
+   "body": "Galley kometasi",
+   "what": "Geliopauza",
+   "r": 120.0
+  },
+  {
+   "t": 270840.4371353494,
+   "body": "Yupiter",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 355081.62551629805,
+   "body": "Saturn",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 516604.0166321407,
+   "body": "Uran",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 633341.7171129633,
+   "body": "Neptun",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 659829.0242182233,
+   "body": "Pluton",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  },
+  {
+   "t": 3415398.8938916773,
+   "body": "Galley kometasi",
+   "what": "Oort bulutining ichki chegarasi",
+   "r": 2000.0
+  }
+ ],
+ "closest": {
+  "a": "Merkuriy",
+  "b": "Yer",
+  "sep_au": 0.08438099004810849,
+  "t": 44.28680437057053
+ },
+ "pairs": [
+  {
+   "a": "Merkuriy",
+   "b": "Venera",
+   "sep_au": 0.14610892993861607,
+   "t": 31.03023380314789
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Yer",
+   "sep_au": 0.08438099004810849,
+   "t": 44.28680437057053
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Mars",
+   "sep_au": 1.2179352244919315,
+   "t": 38.537563452753474
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Yupiter",
+   "sep_au": 4.653397387255771,
+   "t": 92.31793193672505
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Saturn",
+   "sep_au": 8.66627991302935,
+   "t": 117.03533163279332
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Uran",
+   "sep_au": 5.889172745731131,
+   "t": 669.3983877753323
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Neptun",
+   "sep_au": 29.416069513156827,
+   "t": 96.62119850437983
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Pluton",
+   "sep_au": 35.35983009440806,
+   "t": 0.0
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Serera",
+   "sep_au": 2.510880874720103,
+   "t": 33.88621998353741
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Vesta",
+   "sep_au": 1.6940701031428844,
+   "t": 72.0871530353978
+  },
+  {
+   "a": "Merkuriy",
+   "b": "Galley kometasi",
+   "sep_au": 23.061562896349773,
+   "t": 926.8829922546915
+  },
+  {
+   "a": "Venera",
+   "b": "Yer",
+   "sep_au": 0.2728086090970225,
+   "t": 0.5688172523203328
+  },
+  {
+   "a": "Venera",
+   "b": "Mars",
+   "sep_au": 0.9798591666956399,
+   "t": 59.423871976820095
+  },
+  {
+   "a": "Venera",
+   "b": "Yupiter",
+   "sep_au": 3.3403441229534048,
+   "t": 194.13544878602085
+  },
+  {
+   "a": "Venera",
+   "b": "Saturn",
+   "sep_au": 8.750743596013384,
+   "t": 0.0
+  },
+  {
+   "a": "Venera",
+   "b": "Uran",
+   "sep_au": 14.583239037534163,
+   "t": 694.9768488995461
+  },
+  {
+   "a": "Venera",
+   "b": "Neptun",
+   "sep_au": 29.245389135165922,
+   "t": 0.0
+  },
+  {
+   "a": "Venera",
+   "b": "Pluton",
+   "sep_au": 35.60358026765409,
+   "t": 0.0
+  },
+  {
+   "a": "Venera",
+   "b": "Serera",
+   "sep_au": 2.3129117532075223,
+   "t": 0.0
+  },
+  {
+   "a": "Venera",
+   "b": "Vesta",
+   "sep_au": 1.770532849547298,
+   "t": 0.0
+  },
+  {
+   "a": "Venera",
+   "b": "Galley kometasi",
+   "sep_au": 11.117818961216004,
+   "t": 1625.0826735723938
+  },
+  {
+   "a": "Yer",
+   "b": "Mars",
+   "sep_au": 1.289358011695067,
+   "t": 47.22979134403952
+  },
+  {
+   "a": "Yer",
+   "b": "Yupiter",
+   "sep_au": 3.7934040092962125,
+   "t": 208.3917775357594
+  },
+  {
+   "a": "Yer",
+   "b": "Saturn",
+   "sep_au": 8.497699841587137,
+   "t": 0.0
+  },
+  {
+   "a": "Yer",
+   "b": "Uran",
+   "sep_au": 14.024752306997371,
+   "t": 858.117449846974
+  },
+  {
+   "a": "Yer",
+   "b": "Neptun",
+   "sep_au": 29.00651019793908,
+   "t": 0.0
+  },
+  {
+   "a": "Yer",
+   "b": "Pluton",
+   "sep_au": 35.59130863644921,
+   "t": 0.0
+  },
+  {
+   "a": "Yer",
+   "b": "Serera",
+   "sep_au": 2.0981012878959313,
+   "t": 0.0
+  },
+  {
+   "a": "Yer",
+   "b": "Vesta",
+   "sep_au": 1.5144971186326588,
+   "t": 0.0
+  },
+  {
+   "a": "Yer",
+   "b": "Galley kometasi",
+   "sep_au": 9.743447684034297,
+   "t": 1920.8174211251326
+  },
+  {
+   "a": "Mars",
+   "b": "Yupiter",
+   "sep_au": 0.3647222297535387,
+   "t": 464.9013448133018
+  },
+  {
+   "a": "Mars",
+   "b": "Saturn",
+   "sep_au": 9.434744119853725,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Uran",
+   "sep_au": 18.140766012833893,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Neptun",
+   "sep_au": 30.03788826257943,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Pluton",
+   "sep_au": 37.04715543653443,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Serera",
+   "sep_au": 3.356670013457948,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Vesta",
+   "sep_au": 2.5621525971308996,
+   "t": 0.0
+  },
+  {
+   "a": "Mars",
+   "b": "Galley kometasi",
+   "sep_au": 28.42341136418261,
+   "t": 1299.1500801860675
+  },
+  {
+   "a": "Yupiter",
+   "b": "Saturn",
+   "sep_au": 13.009241869011802,
+   "t": 0.0
+  },
+  {
+   "a": "Yupiter",
+   "b": "Uran",
+   "sep_au": 18.32117598201336,
+   "t": 0.0
+  },
+  {
+   "a": "Yupiter",
+   "b": "Neptun",
+   "sep_au": 33.55737470120234,
+   "t": 0.0
+  },
+  {
+   "a": "Yupiter",
+   "b": "Pluton",
+   "sep_au": 40.880628773510075,
+   "t": 2.6569240358380555e-12
+  },
+  {
+   "a": "Yupiter",
+   "b": "Serera",
+   "sep_au": 7.249873678284509,
+   "t": 108.0145942739891
+  },
+  {
+   "a": "Yupiter",
+   "b": "Vesta",
+   "sep_au": 6.273215019100493,
+   "t": 134.2501641566279
+  },
+  {
+   "a": "Yupiter",
+   "b": "Galley kometasi",
+   "sep_au": 29.957019219688437,
+   "t": 0.0
+  },
+  {
+   "a": "Saturn",
+   "b": "Uran",
+   "sep_au": 7.725865128699075,
+   "t": 3042.83313469496
+  },
+  {
+   "a": "Saturn",
+   "b": "Neptun",
+   "sep_au": 20.617087769953283,
+   "t": 0.0
+  },
+  {
+   "a": "Saturn",
+   "b": "Pluton",
+   "sep_au": 33.150708581554376,
+   "t": 0.0
+  },
+  {
+   "a": "Saturn",
+   "b": "Serera",
+   "sep_au": 6.358213500164805,
+   "t": 366.89012885567655
+  },
+  {
+   "a": "Saturn",
+   "b": "Vesta",
+   "sep_au": 7.0218787453686815,
+   "t": 0.0
+  },
+  {
+   "a": "Saturn",
+   "b": "Galley kometasi",
+   "sep_au": 19.663399458116736,
+   "t": 5991.1470702152865
+  },
+  {
+   "a": "Uran",
+   "b": "Neptun",
+   "sep_au": 26.31111241031123,
+   "t": 0.0
+  },
+  {
+   "a": "Uran",
+   "b": "Pluton",
+   "sep_au": 48.044976751689994,
+   "t": 0.0
+  },
+  {
+   "a": "Uran",
+   "b": "Serera",
+   "sep_au": 1.6502035620719278,
+   "t": 2168.4682420354034
+  },
+  {
+   "a": "Uran",
+   "b": "Vesta",
+   "sep_au": 6.297013145274651,
+   "t": 1937.6668518192066
+  },
+  {
+   "a": "Uran",
+   "b": "Galley kometasi",
+   "sep_au": 9.227280749572223,
+   "t": 6907.150530276667
+  },
+  {
+   "a": "Neptun",
+   "b": "Pluton",
+   "sep_au": 32.382273824901084,
+   "t": 0.0
+  },
+  {
+   "a": "Neptun",
+   "b": "Serera",
+   "sep_au": 26.981231093289356,
+   "t": 0.0
+  },
+  {
+   "a": "Neptun",
+   "b": "Vesta",
+   "sep_au": 27.573129327740197,
+   "t": 0.0
+  },
+  {
+   "a": "Neptun",
+   "b": "Galley kometasi",
+   "sep_au": 42.17395410167833,
+   "t": 11908.068692332507
+  },
+  {
+   "a": "Pluton",
+   "b": "Serera",
+   "sep_au": 34.3528319411704,
+   "t": 0.0
+  },
+  {
+   "a": "Pluton",
+   "b": "Vesta",
+   "sep_au": 35.204101165989535,
+   "t": 0.0
+  },
+  {
+   "a": "Pluton",
+   "b": "Galley kometasi",
+   "sep_au": 69.42475362563273,
+   "t": 0.0
+  },
+  {
+   "a": "Serera",
+   "b": "Vesta",
+   "sep_au": 0.8925949690300329,
+   "t": 0.0
+  },
+  {
+   "a": "Serera",
+   "b": "Galley kometasi",
+   "sep_au": 19.286268664551475,
+   "t": 3161.590834292568
+  },
+  {
+   "a": "Vesta",
+   "b": "Galley kometasi",
+   "sep_au": 14.006683872994508,
+   "t": 3032.138051555417
+  }
+ ],
+ "unbound": {
+  "Merkuriy": true,
+  "Venera": true,
+  "Yer": true,
+  "Mars": true,
+  "Yupiter": true,
+  "Saturn": true,
+  "Uran": true,
+  "Neptun": true,
+  "Pluton": true,
+  "Serera": true,
+  "Vesta": true,
+  "Galley kometasi": true
+ },
+ "speed0_kms": [
+  49.880954340285925,
+  34.98128774730546,
+  29.94782175938072,
+  23.153968067939417,
+  12.785759987827252,
+  9.755566375297654,
+  6.7138586771173445,
+  5.466561960045197,
+  5.227447319191692,
+  16.81658100851623,
+  18.440345949255224,
+  1.0197730423541447
+ ],
+ "dv_ms": [
+  5.009504876921932,
+  9.992042724713375,
+  12.497945940788112,
+  301.42094925131556,
+  1.5329828913117147,
+  5.019012055942676,
+  8.403681644871986,
+  4.605779290728455,
+  2.498882700409298,
+  9.6347345287211,
+  7.009184640193142,
+  3.3159645426084863
+ ],
+ "moon_energy": -0.5274536295525495,
+ "moon_bound": true,
+ "alive": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ]
+}

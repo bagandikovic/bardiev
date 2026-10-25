@@ -1,0 +1,8 @@
+__pycache__/
+frames.npz
+video_silent.mp4
+soundtrack.wav
+cues.json
+render.log
+still_*.png
+build.log
